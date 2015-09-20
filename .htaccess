@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteBase /
 
 # Prevent access to sensitive folders
-RewriteRule ^(_backup|_data|core|bin|\.modmore\.com\.key)(.*)$ index.php?q=404 [L,QSA]
+RewriteRule ^(_backup|_data|core|bin|readme.md|\.modmore\.com\.key)(.*)$ index.php?q=404 [L,QSA]
 
 # The Friendly URLs part
 RewriteCond %{REQUEST_FILENAME} !-f
