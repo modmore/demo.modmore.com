@@ -1,0 +1,4 @@
+key: simplecart.default_currency
+value: '1'
+namespace: simplecart
+area: site

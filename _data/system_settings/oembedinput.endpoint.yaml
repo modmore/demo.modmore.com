@@ -1,0 +1,4 @@
+key: oembedinput.endpoint
+value: 'http://noembed.com/embed?nowrap=on&url='
+namespace: oembedinput
+area: 'oEmbed Service'

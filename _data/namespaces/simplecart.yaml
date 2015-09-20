@@ -1,0 +1,3 @@
+name: simplecart
+path: '{core_path}components/simplecart/'
+assets_path: '{assets_path}components/simplecart/'

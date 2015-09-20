@@ -1,0 +1,10 @@
+id: 7
+name: simplecart.dashboard.title
+description: simplecart.dashboard.description
+type: file
+content: '[[++core_path]]components/simplecart/model/simplecart/simplecartdashboardwidget.class.php'
+namespace: simplecart
+lexicon: 'simplecart:default'
+size: full
+name_trans: 'SimpleCart Recent Orders'
+description_trans: 'Shows the last orders done by customers'

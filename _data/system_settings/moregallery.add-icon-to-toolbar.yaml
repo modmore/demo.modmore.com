@@ -1,0 +1,5 @@
+key: moregallery.add_icon_to_toolbar
+value: '1'
+xtype: modx-combo-boolean
+namespace: moregallery
+area: Advanced

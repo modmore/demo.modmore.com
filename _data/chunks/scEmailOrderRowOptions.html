@@ -1,0 +1,9 @@
+id: 20
+name: scEmailOrderRowOptions
+description: 'The single product option row template for the order email'
+category: SimpleCart
+properties: ''
+
+-----
+
+[[+caption]]: [[+value]] [[+price:notempty=`(+ [[+price_formatted]])`:isempty=``]][[+last:ne=`1`:then=`,&nbsp;`:else=``]]

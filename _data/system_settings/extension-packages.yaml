@@ -1,0 +1,3 @@
+key: extension_packages
+value: '[{"moregallery":{"path":"[[++core_path]]components/moregallery/model/"}},{"simplecartresource":{"path":"[[++core_path]]components/simplecart/model/"}}]'
+area: system

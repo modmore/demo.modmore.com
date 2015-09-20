@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+# Prevent access to sensitive folders
+RewriteRule ^(_backup|_data|core)(.*)$ index.php?q=404 [L,QSA]
+
+# The Friendly URLs part
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+

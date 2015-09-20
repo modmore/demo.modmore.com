@@ -1,0 +1,10 @@
+id: 19
+name: scEmailOrderRowField
+description: 'The single product field row template for the order email'
+category: SimpleCart
+properties: ''
+
+-----
+
+- <strong>[[+label:isempty=`[[+key]]`]]</strong>: [[+value:nl2br]]
+[[+last:notempty=``:isempty=`<br />`]]

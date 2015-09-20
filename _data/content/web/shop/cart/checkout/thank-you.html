@@ -1,0 +1,21 @@
+id: 6
+pagetitle: 'Thank you!'
+alias: thank-you
+published: 1
+parent: 5
+introtext: null
+template: 1
+createdby: 1
+createdon: 1442687389
+publishedon: 1442687389
+uri: shop/cart/checkout/thank-you
+properties: null
+tvs: {  }
+
+-----
+
+[[!scFinishOrder?
+    &redirectToOnNotFound=`6`
+    &orderSuccess=`@INLINE:<p>Dear [[+order.firstname]] [[+order.lastname]], thanks for your order. We have send you an e-mail at [[+order.email]] with the order details.</p>`
+    &orderFailed=`@INLINE:<p>Unfortunately we couldn't finish your order. Something went wrong. Please contact us[[+order.ordernr:notempty=` and report your order number: [[+order.ordernr]]`]].</p>`
+]]

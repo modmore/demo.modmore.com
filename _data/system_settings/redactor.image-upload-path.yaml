@@ -1,0 +1,4 @@
+key: redactor.image_upload_path
+value: 'uploads/images/[[+alias]]/'
+namespace: redactor
+area: Media

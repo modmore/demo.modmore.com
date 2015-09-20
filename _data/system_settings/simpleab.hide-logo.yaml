@@ -1,0 +1,4 @@
+key: simpleab.hide_logo
+xtype: combo-boolean
+namespace: simpleab
+area: Default

@@ -1,0 +1,90 @@
+id: 6
+name: scCart
+description: 'The outer template for the cart view'
+category: SimpleCart
+properties: ''
+
+-----
+
+[[!FormIt?
+    &store=`1`
+    &hooks=`spam,redirect`
+    &submitVar=`checkout`
+    &redirectTo=`[[*id:scFirstChild]]`
+]]
+
+[[!scCartUpdate]]
+
+<div id="simplecart">
+    
+    <form action="[[~[[*id]]]]" method="post" id="form_cartoverview">
+        <input type="hidden" name="updatecart" value="true" />
+        
+        <table>
+          <tr>
+            <th class="desc">[[%simplecart.cart.description]]</th>
+            <th class="price">[[%simplecart.cart.price]]</th>
+            <th class="quantity">[[%simplecart.cart.quantity]]</th>
+            [[+cart.total.vat_total:notempty=`<th class="quantity">[[%simplecart.cart.vat]]</th>`:isempty=``]]
+            <th class="subtotal">[[%simplecart.cart.subtotal]]</th>
+            <th>&nbsp;</th>
+          </tr>
+            
+            [[+cart.wrapper]]
+            
+          [[+cart.total.discount:notempty=`<tr class="total first discount">
+            <td colspan="[[+cart.total.vat_total:notempty=`3`:isempty=`2`]]">&nbsp;</td>
+            <td class="label">[[%simplecart.cart.discount]]</td>
+            <td class="value">- [[+cart.total.discount_formatted]]</td>
+            <td class="extra">[[+cart.total.discount_percent:notempty=`([[+cart.total.discount_percent]]%)`:isempty=`&nbsp;`]]</td>
+          </tr>`:isempty=``]]
+
+        [[+cart.total.vat_total:notempty=`
+          <tr class="total [[+cart.total.discount:notempty=`second`:isempty=`first`]]">
+            <td colspan="3">&nbsp;</td>
+            <td class="label">[[%simplecart.cart.total_ex_vat]]</td>
+            <td class="value">[[+cart.total.price_ex_vat_formatted]]</td>
+            <td class="extra">&nbsp;</td>
+          </tr>
+          [[+cart.vat_rates]]
+          <tr class="total [[+cart.total.discount:notempty=`third`:isempty=`second`]]">
+            <td colspan="3">&nbsp;</td>
+            <td class="label">[[%simplecart.cart.total_vat]]</td>
+            <td class="value">[[+cart.total.vat_total_formatted]]</td>
+            <td class="extra">&nbsp;</td>
+          </tr>
+          <tr class="total [[+cart.total.discount:notempty=`fourth`:isempty=`third`]]">
+            <td colspan="3">&nbsp;</td>
+            <td class="label">[[%simplecart.cart.total_in_vat]]</td>
+            <td class="value">[[+cart.total.price_formatted]]</td>
+            <td class="extra">&nbsp;</td>
+          </tr>
+        `:isempty=`
+          <tr class="total [[+cart.total.discount:notempty=`second`:isempty=`first`]]">
+            <td colspan="2">&nbsp;</td>
+            <td class="label">[[%simplecart.cart.total]]</td>
+            <td class="value">[[+cart.total.price_formatted]]</td>
+            <td class="extra">&nbsp;</td>
+          </tr>
+        `]]
+        </table>
+        
+        <div class="submit">
+            <input type="submit" value="[[%simplecart.cart.update]]" />
+        </div>
+    </form>
+    
+    [[!scCouponCode]]
+    
+    <h2>[[%simplecart.cart.delivery_method]]</h2>
+    
+    <form action="[[~[[*id]]]]" method="post" id="form_deliverymethod">
+        
+        [[!scDeliveryMethods]]
+        
+        <div class="submit">
+            <input type="submit" name="checkout" value="[[%simplecart.cart.checkout]]" />
+        </div>
+    </form>
+
+</div>

@@ -1,0 +1,4 @@
+key: simplecart.disable_order_logs
+xtype: combo-boolean
+namespace: simplecart
+area: site

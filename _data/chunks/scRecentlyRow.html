@@ -1,0 +1,15 @@
+id: 35
+name: scRecentlyRow
+description: 'The single row template for the recently viewed products'
+category: SimpleCart
+properties: ''
+
+-----
+
+<div class="item">
+    <h3>[[+recent.pagetitle]]</h3>
+    <p>
+        [[+recent.introtext:isempty=`[[+recent.content:stripTags:ellipsis=`75`]]`]]
+        <a href="[[~[[+recent.id]]]]">[[%simplecart.cart.more]]</a>
+    </p>
+</div>

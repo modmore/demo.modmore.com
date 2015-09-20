@@ -1,0 +1,14 @@
+id: 11
+name: scCartFreeProduct
+description: 'The row template for the free product view inside the cart'
+category: SimpleCart
+properties: ''
+
+-----
+
+<tr class="[[+product.rowclass]]">
+  <td class="title" colspan="5">
+    <strong>[[%simplecart.cart.free]]</strong> [[+product.pagetitle]]<br />
+    [[%simplecart.cart.worthof? &price=`[[+product.product_price_formatted]]`]]
+  </td>
+</tr>

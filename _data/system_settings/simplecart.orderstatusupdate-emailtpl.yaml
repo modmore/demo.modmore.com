@@ -1,0 +1,4 @@
+key: simplecart.orderstatusupdate_emailtpl
+value: scartEmailOrderStatusUpdate
+namespace: simplecart
+area: manager

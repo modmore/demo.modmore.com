@@ -1,0 +1,4 @@
+key: redactor.file_browse_path
+value: uploads/files/
+namespace: redactor
+area: Media

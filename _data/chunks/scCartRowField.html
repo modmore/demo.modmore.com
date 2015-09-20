@@ -1,0 +1,11 @@
+id: 9
+name: scCartRowField
+description: 'The row tpl for a custom product field, inside product rows'
+category: SimpleCart
+properties: ''
+
+-----
+
+[[+first:notempty=`<br />`]]
+- <strong>[[+label:isempty=`[[+key]]`]]</strong>: [[+value:nl2br]]
+[[+last:notempty=``:isempty=`<br />`]]

@@ -1,0 +1,5 @@
+key: simplecart.usedefaultcss
+value: '0'
+xtype: combo-boolean
+namespace: simplecart
+area: site

@@ -1,0 +1,9 @@
+.modmore.com.key
+manager/
+core/
+connectors/
+assets/components/
+_backup/
+config.core.php
+index.php
+.idea/

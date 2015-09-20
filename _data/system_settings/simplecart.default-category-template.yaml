@@ -1,0 +1,5 @@
+key: simplecart.default_category_template
+value: '1'
+xtype: modx-combo-template
+namespace: simplecart
+area: manager

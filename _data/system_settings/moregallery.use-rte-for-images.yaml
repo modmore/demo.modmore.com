@@ -1,0 +1,5 @@
+key: moregallery.use_rte_for_images
+value: '1'
+xtype: modx-combo-boolean
+namespace: moregallery
+area: Interface

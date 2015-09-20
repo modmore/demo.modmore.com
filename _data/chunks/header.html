@@ -1,0 +1,30 @@
+id: 4
+name: header
+description: ''
+properties: 'a:0:{}'
+
+-----
+
+<!--- Header -->
+[[$preheader]]
+<header>
+	<div class="rst-header-menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<nav class="rst-header-menu">
+						<a href="[[!++site_url]]"><img src="[[++template_url]]images/header-logo.png" alt="[[++site_name:htmlent]]" /></a>
+						[[Wayfinder?
+						    &startId=`0`
+						    &level=`2`
+						    &hereClass=`current-menu-item`
+						]]
+						<div class="clear"></div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header menu -->
+</header>
+<!--- End Header -->

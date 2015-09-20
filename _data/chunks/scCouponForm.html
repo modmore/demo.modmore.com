@@ -1,0 +1,20 @@
+id: 14
+name: scCouponForm
+description: 'The template for the coupon form'
+category: SimpleCart
+properties: ''
+
+-----
+
+<div id="sccoupon" class="form">
+  [[+coupon.error.activate:notempty=`<p class="error">[[+coupon.error.activate]]</p>`]]
+  <form action="[[~[[*id]]]]" method="post" id="form_activatecoupon">
+    <div>
+      <label for="couponcode">[[%simplecart.coupon.code]]</label>
+      <input type="text" id="couponcode" name="couponcode" />
+    </div>
+    <div class="submit">
+      <input type="submit" value="[[%simplecart.coupon.activate]]" />
+    </div>
+  </form>
+</div>

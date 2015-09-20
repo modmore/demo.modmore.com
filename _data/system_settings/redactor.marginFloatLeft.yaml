@@ -1,0 +1,4 @@
+key: redactor.marginFloatLeft
+value: '0 10px 10px 0'
+namespace: redactor
+area: Markup

@@ -1,0 +1,4 @@
+key: simplecart.ordernr_start
+value: '10001'
+namespace: simplecart
+area: site

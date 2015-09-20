@@ -1,0 +1,13 @@
+id: 40
+name: scOption-Select
+description: 'Output template for a SimpleCart Option TV with selectbox'
+category: SimpleCart
+properties: ''
+
+-----
+
+[[+first:notempty=`<select name="[[+option_name]]">`]]
+<option value="[[+value]]" [[+selected:eq=`1`:then=`selected="selected"`]]>
+    [[+label]][[+price:notempty=`, [[%simplecartoption.price? &namespace=`simplecart` &topic=`tvrenders`]]: [[+price_formatted]]`]][[+percentage:notempty=` ([[+percentage]]%)`]]
+</option>
+[[+last:notempty=`</select>`]]

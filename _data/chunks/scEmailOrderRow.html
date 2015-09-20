@@ -1,0 +1,18 @@
+id: 18
+name: scEmailOrderRow
+description: 'The email product row template for the order confirmation to the customer'
+category: SimpleCart
+properties: ''
+
+-----
+
+<tr>
+  <td>
+    [[+title]]
+    [[+options:notempty=`<br />[[+options]]`]]
+    [[+fields:notempty=`<br />[[+fields]]`]]
+  </td>
+  <td style="text-align:right;">[[+price_formatted]]</td>
+  <td style="text-align:center;">[[+quantity]]</td>
+  <td style="text-align:right;">[[+subtotal_formatted]]</td>
+</tr>

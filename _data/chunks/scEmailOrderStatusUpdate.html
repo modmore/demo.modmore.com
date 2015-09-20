@@ -1,0 +1,17 @@
+id: 22
+name: scEmailOrderStatusUpdate
+description: 'The email used to inform the customer about the order status update'
+category: SimpleCart
+properties: ''
+
+-----
+
+<p>[[%simplecart.email.salutation]]</p>
+<p>[[%simplecart.email.orderupdated]]</p>
+
+[[+status_changed:notempty=`<p>[[%simplecart.email.statuschanged]]</p>`]]
+
+[[+message:notempty=`<p>[[+message:nl2br]]</p>`]]
+
+<p>[[%simplecart.email.closure]]</p>
+<p>[[%simplecart.email.regards]]</p>

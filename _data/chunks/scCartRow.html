@@ -1,0 +1,33 @@
+id: 7
+name: scCartRow
+description: 'The row template for a single product view inside the cart'
+category: SimpleCart
+properties: ''
+
+-----
+
+<tr class="[[+product.rowclass]]">
+    <td class="title">
+        <strong>[[+product.pagetitle]]</strong>
+        [[+product.options:notempty=`<br /><span class="options">[[+product.options]]</span>`:isempty=``]]
+        [[+product.fields:notempty=`<br /><span class="fields"><em>[[%simplecart.cart.fields]]:</em> [[+product.fields]]</span>`:isempty=``]]
+    </td>
+    <td class="price">
+        [[+product.totals.price_ex_vat_formatted]]
+        [[+product.totals.discount_percent:notempty=`(- [[+product.totals.discount_percent]]%)`:isempty=``]]
+    </td>
+    <td class="quantity">
+        <input type="number" name="quantity&#91;[[+product.key]]&#93;" min="0" value="[[+product.totals.quantity]]" />
+    </td>
+
+    [[+product.totals.vat_price:notempty=`<td class="vat">
+        [[+product.totals.vat_subtotal_formatted]] ([[+product.totals.vat_rate]]%)
+    </td>`:isempty=``]]
+
+    <td class="subtotal">
+        [[+product.totals.subtotal_ex_vat_formatted]]
+    </td>
+    <td class="actions">
+        <input type="submit" name="remove&#91;[[+product.key]]&#93;" value="[[%remove]]" />
+    </td>
+</tr>
