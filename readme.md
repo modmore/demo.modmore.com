@@ -26,3 +26,7 @@ After the build, you can login to the manager and make changes as needed. When y
 4. Push.
 
 If the changes require a review, or if they are not ready to be deployed to the live demo site, create a new branch based on master and commit the changes on that. Push the branch with `git push -u origin <name of branch>`, and open a pull request on github.  
+
+## Resetting to known state
+
+To reset the site to the latest commit, there's a utility in bin/rebuild.php. Make sure you're in the repository root, and then run `php bin/rebuild.php`, that should take care of it. You will lose uncommitted changes when running this utility.
