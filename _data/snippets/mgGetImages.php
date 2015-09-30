@@ -204,7 +204,7 @@ if ($scriptProperties['cache']) {
             $formatted = implode($scriptProperties['imageSeparator'], $formatted);
 
             if (!empty($scriptProperties['wrapperTpl'])) {
-                $formatted = $moreGallery->getChunk($scriptProperties['wrapperTpl'], array('output' => $formatted, 'image_count' => $total));
+                $formatted = $moreGallery->getChunk($scriptProperties['wrapperTpl'], array('output' => $formatted, 'image_count' => $cached['total']));
             }
 
             // return it
