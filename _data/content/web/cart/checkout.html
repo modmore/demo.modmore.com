@@ -1,0 +1,46 @@
+id: 5
+pagetitle: Checkout
+alias: checkout
+published: 1
+parent: 4
+isfolder: 1
+introtext: ''
+template: 1
+createdby: 1
+createdon: 1442687389
+publishedon: 1442687340
+hidemenu: 1
+uri: cart/checkout/
+properties: '{"contentblocks":{"content":"[{\"layout\":7,\"content\":{\"main\":[{\"value\":\"Please enter your information\",\"field\":9,\"settings\":{\"subheading\":\"To fulfil your order, we''ll need to know where to ship it to! Please enter your details below, and choose your preferred payment method to continue.\"}}]},\"settings\":{\"background\":\"#eee\",\"alignment\":\"text-left\",\"special\":\"\",\"width\":\"col-sm-12\"},\"parent\":0},{\"layout\":7,\"content\":{\"main\":[{\"chunk_properties\":{},\"field\":13,\"settings\":{}}]},\"settings\":{\"background\":\"transparent\",\"alignment\":\"text-left\",\"special\":\"\",\"width\":\"col-sm-12\"},\"parent\":0}]","linear":[{"value":"Please enter your information","field":9,"settings":{"subheading":"To fulfil your order, we''ll need to know where to ship it to! Please enter your details below, and choose your preferred payment method to continue."}},{"chunk_properties":[],"field":13,"settings":[]}],"fieldcounts":{"9":1,"13":1},"_isContentBlocks":true}}'
+tvs: {  }
+
+-----
+
+<section style="background: #eee"
+         class="text-left ">
+    <div class="container">
+        <div class="row"><div class="col-sm-12">
+        <div class="rst-group-title">
+	<h4>Please enter your information</h4>
+	
+	    <p>To fulfil your order, we'll need to know where to ship it to! Please enter your details below, and choose your preferred payment method to continue.</p>
+    
+</div>
+        </div></div>
+    </div>
+</section>
+
+<section style="background: transparent"
+         class="text-left ">
+    <div class="container">
+        <div class="row"><div class="col-sm-12">
+        [[$myCheckoutForm? 
+	&unique_idx=`3`
+	&layout_id=`7`
+	&layout_column=`main`
+	&layout_idx=`1`
+	]]
+
+        </div></div>
+    </div>
+</section>

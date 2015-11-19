@@ -1,0 +1,3 @@
+name: simplecart_mollie
+path: '{core_path}components/simplecart_mollie/'
+assets_path: '{assets_path}components/simplecart_mollie/'

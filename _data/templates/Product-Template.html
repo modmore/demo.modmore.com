@@ -1,0 +1,46 @@
+id: 2
+templatename: 'Product Template'
+description: 'This template is specially made for products in the webshop.'
+properties: 'a:0:{}'
+
+-----
+
+[[$head]]
+<body>
+	
+[[$sidemenu]]
+
+<section class="wrapper">
+
+	[[$header]]
+	
+	<div class="row" style="background: #ddd;">
+	    <div class="col-md-4 col-sm-12">
+	        
+	        [[*product_image:notempty=`
+	            <img src="[[*product_image]]" alt="[[*pagetitle:htmlent]]">
+            `]]
+	    </div>
+	    <div class="col-md-6 col-sm-12">
+	        <h2>[[*longtitle:default=`[[*pagetitle]]`]]</h2>
+	        <p class="lead">[[*introtext]]</p>
+	        
+	        [[!scAddProduct? &redirectTo=`4`]]
+	        <form action="[[~[[*id]]]]" method="post">
+	            <h3>Price: [[*product_price_formatted]]</h3>
+	            [[*parent:eq=`8`:then=`
+                    <input type="hidden" name="quantity" value="1" />
+	            `:else=`
+	                <label for="quantity">Quantity:</label>
+                    <input type="text" name="quantity" id="quantity" value="1" />
+	            `]]
+                <input type="submit" class="btn btn-primary" name="addcart" value="Add to Cart" />
+            </form>
+	    </div>
+	</div>
+	[[*content]]
+	
+	[[$footer]]
+	
+</section>
+[[$scripts]]

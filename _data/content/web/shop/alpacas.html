@@ -5,7 +5,6 @@ published: 1
 parent: 7
 isfolder: 1
 introtext: ''
-content: ''
 template: 1
 menuindex: 1
 createdby: 1
@@ -14,5 +13,17 @@ publishedon: 1442687456
 publishedby: 1
 class_key: scCategoryResource
 uri: shop/alpacas/
-properties: '{"category":[]}'
+properties: '{"category":{"default_product_template":"","productImageSource":"","hideMenutitle":0,"hideLongtitle":0,"hideDescription":0,"default_tax":""},"contentblocks":{"content":"[{\"layout\":1,\"content\":{\"main\":[{\"chunk_properties\":{},\"field\":11,\"settings\":{}}]},\"settings\":{\"background\":\"transparent\",\"alignment\":\"text-left\",\"special\":\"\"},\"parent\":0}]","linear":[{"chunk_properties":[],"field":11,"settings":[]}],"fieldcounts":{"11":1},"_isContentBlocks":true}}'
 tvs: {  }
+
+-----
+
+<section style="background: transparent"
+         class="text-left ">
+    [[$productListing? 
+	&unique_idx=`1`
+	&layout_id=`1`
+	&layout_column=`main`
+	]]
+
+</section>

@@ -1,0 +1,45 @@
+id: 4
+pagetitle: Cart
+alias: cart
+published: 1
+isfolder: 1
+introtext: "[[!FormIt?\r\n    &store=`1`\r\n    &hooks=`spam,redirect`\r\n    &submitVar=`checkout`\r\n    &redirectTo=`[[*id:scFirstChild]]`\r\n]]\r\n\r\n[[!scGetCart]]"
+template: 1
+menuindex: 5
+createdby: 1
+createdon: 1442687389
+publishedon: 1442687340
+uri: cart/
+properties: '{"contentblocks":{"content":"[{\"layout\":7,\"content\":{\"main\":[{\"value\":\"Thank you for shopping at Alpacalicious!\",\"field\":9,\"settings\":{\"subheading\":\"We hope you managed to find what you were looking for. And that you remember that this is not a real site selling alpacas and alpaca gifts, it is only a demo site for modmore.com showing off our extras!\"}}]},\"settings\":{\"background\":\"#eee\",\"alignment\":\"text-center\",\"special\":\"\",\"width\":\"col-sm-12\"},\"parent\":0},{\"layout\":7,\"content\":{\"main\":[{\"chunk_properties\":{},\"field\":12,\"settings\":{}}]},\"settings\":{\"background\":\"transparent\",\"alignment\":\"text-left\",\"special\":\"\",\"width\":\"col-sm-12\"},\"parent\":0}]","linear":[{"value":"Thank you for shopping at Alpacalicious!","field":9,"settings":{"subheading":"We hope you managed to find what you were looking for. And that you remember that this is not a real site selling alpacas and alpaca gifts, it is only a demo site for modmore.com showing off our extras!"}},{"chunk_properties":[],"field":12,"settings":[]}],"fieldcounts":{"9":1,"12":1},"_isContentBlocks":true}}'
+tvs: {  }
+
+-----
+
+<section style="background: #eee"
+         class="text-center ">
+    <div class="container">
+        <div class="row"><div class="col-sm-12">
+        <div class="rst-group-title">
+	<h4>Thank you for shopping at Alpacalicious!</h4>
+	
+	    <p>We hope you managed to find what you were looking for. And that you remember that this is not a real site selling alpacas and alpaca gifts, it is only a demo site for modmore.com showing off our extras!</p>
+    
+</div>
+        </div></div>
+    </div>
+</section>
+
+<section style="background: transparent"
+         class="text-left ">
+    <div class="container">
+        <div class="row"><div class="col-sm-12">
+        [[$cart? 
+	&unique_idx=`3`
+	&layout_id=`7`
+	&layout_column=`main`
+	&layout_idx=`1`
+	]]
+
+        </div></div>
+    </div>
+</section>

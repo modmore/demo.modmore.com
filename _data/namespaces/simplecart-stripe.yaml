@@ -1,0 +1,3 @@
+name: simplecart_stripe
+path: '{core_path}components/simplecart_stripe/'
+assets_path: '{assets_path}components/simplecart_stripe/'

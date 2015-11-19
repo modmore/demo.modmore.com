@@ -1,0 +1,17 @@
+id: 43
+name: productListing
+description: ''
+properties: 'a:0:{}'
+
+-----
+
+[[!scAddProduct? &redirectTo=`4`]]
+        
+[[getResources?
+    &parents=`[[*id]]`
+    &tpl=`productListingTpl`
+    &sortby=`menuindex ASC, id`
+    &sortdir=`ASC`
+    &limit=`0`
+    &includeContent=`1`
+]]
