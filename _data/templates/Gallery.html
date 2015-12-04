@@ -1,0 +1,40 @@
+id: 3
+templatename: Gallery
+description: ''
+properties: 'a:0:{}'
+
+-----
+
+[[$head? &extra=`
+    <link rel="stylesheet" href="/assets/template/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+`]]
+<body>
+	
+[[$sidemenu]]
+
+<section class="wrapper">
+
+	[[$header]]
+	
+	[[*content]]
+	
+	<div class="container">
+    	[[!mgGetImages? 
+    	    &imageTpl=`galleryImage`
+        ]]
+	</div>
+	
+	<br>
+	
+	[[$footer]]
+	
+</section>
+[[$scripts? &extra=`
+<script src="/assets/template/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto();
+    });
+</script>
+
+`]]

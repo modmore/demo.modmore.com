@@ -224,13 +224,20 @@ iframe {
 .rst-header-banner p a:hover {
   text-decoration: underline;
 }
+
+.header-site-name {
+  float: left;
+  line-height: 75px;
+  font-size: 35px;
+}
+
 .rst-group-title {
   text-align: center;
 }
 .rst-group-title h4 {
   font-size: 40px;
   font-weight: 700;
-  margin: 60px 0 28px;
+  margin: 20px 0 28px;
   padding: 29px 0 0;
   position: relative;
 }

@@ -1,0 +1,27 @@
+#simplecart {
+    margin-top: 2em;
+}
+#simplecart table {
+    width: 100% !important;
+}
+#form_cartoverview tr.total {
+    border-top: 2px solid #cccccc;
+}
+
+#simplecart table tr.total.first td {
+    border-top: none;
+}
+
+#simplecart table tr.total td.label {
+    display: block;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 100%;
+    line-height: 1.42857143;
+    color: #1b1b1b;
+}
+
+#simplecartCheckout div label {
+    width: 200px !important;
+}

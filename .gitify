@@ -119,8 +119,7 @@ packages:
     modmore.com:
         service_url: 'https://rest.modmore.com/'
         description: 'demo.modmore.com v2'
-        username: mhamstra_demo2
-        api_key: .modmore.com.key
+        credential_file: '.demo.modmore.com.key'
         packages:
             - blockdown-0.1.0-pl
             - clientconfig-1.3.1-pl

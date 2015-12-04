@@ -1,5 +1,4 @@
 key: simplecart.usedefaultcss
-value: '1'
 xtype: combo-boolean
 namespace: simplecart
 area: site
