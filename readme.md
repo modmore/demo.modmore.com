@@ -11,10 +11,17 @@ To create an instance of the demo site, these are the steps to follow:
 1. Clone the repository: `git clone git@github.com:modmore/demo.modmore.com.git`
 2. Enter the directory: `cd demo.modmore.com`
 3. If you haven't yet, [install Gitify](https://github.com/modmore/Gitify/wiki/1.-Installation).
-4. Ask Mark for the `.modmore.com.key` file, which contains the API Key for the modmore provider, and add it in the root of the repository.   
+4. In the root of the repository, create a file called `.demo.modmore.com.key` which contains a `username` and `api_key` in YAML format for your modmore.com account. 
 5. Install MODX using `Gitify modx:install` or `Gitify modx:install v2.4.0-pl`
 6. Install the used packages using `Gitify package:install --all`, this may take a bit of time.
 7. Run `Gitify build` to inject all data from the repository into MODX. 
+
+### Example `.demo.modmore.com.key` file
+
+```` yaml
+username: myaccount_apikey
+api_key: g3a12asd....
+````
 
 ## Making changes
 

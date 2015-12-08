@@ -1,5 +1,5 @@
 key: moregallery.crops
-value: 'Thumbnail:width=200,height=200,aspect=1'
+value: "Thumbnail:width=300,height=200,aspect=1.3333\n"
 xtype: textarea
 namespace: moregallery
 area: Interface

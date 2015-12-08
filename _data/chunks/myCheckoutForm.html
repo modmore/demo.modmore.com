@@ -6,6 +6,24 @@ properties: 'a:0:{}'
 
 -----
 
+[[*id:notempty=`
+    <script src="assets/template/js/chance.min.js"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function() {
+            $('#fillRandom').on('click', function() {
+                $('#checkout_firstname').val(chance.first());
+                $('#checkout_lastname').val(chance.last());
+                $('#checkout_address1').val(chance.address());
+                $('#checkout_zip').val(chance.zip());
+                $('#checkout_city').val(chance.city());
+                $('#checkout_country').val(chance.country());
+                $('#checkout_email').val(chance.email({domain: 'example.com'}));
+            });
+        
+        });
+    </script>
+`:htmlToBottom]]
+
 [[!FormItRetriever? &redirectToOnNotFound=`[[*parent]]`]]
 
 [[!FormIt?
@@ -17,18 +35,18 @@ properties: 'a:0:{}'
     &validate=`nospam:blank,
         firstname:required,
         lastname:required,
-        street:required,
-        number:required,
+        address1:required,
         zip:required,
         city:required,
         country:required,
         email:email:required`
-    &orderAddress=`address1:street,address2:number`
 ]]
 
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
-        <h2>Please enter your Personal Information</h2>
+        <h2>Please enter your Personal Information 
+            <button class="btn btn-secondary btn-small" id="fillRandom">Or fill with random details</button>
+        </h2>
         <form action="[[~[[*id]]]]" method="post" id="simplecartCheckout">
             <input type="hidden" name="nospam" value="" />
             <input type="hidden" name="doOrder" value="true" />
@@ -47,17 +65,11 @@ properties: 'a:0:{}'
             </div>
         
             <div>
-                <label for="checkout_street">[[%simplecart.orderdetails.address.street]]: <span>*</span></label>
-                <input type="text" name="street" id="checkout_street" value="[[+fi.street]]" />
-                <label class="error">[[+fi.error.street]]</label>
+                <label for="checkout_address1">[[%simplecart.orderdetails.address.address]]: <span>*</span></label>
+                <input type="text" name="address1" id="checkout_address1" value="[[+fi.address1]]" />
+                <label class="error">[[+fi.error.address1]]</label>
             </div>
-        
-            <div>
-                <label for="checkout_number">[[%simplecart.orderdetails.address.number]]: <span>*</span></label>
-                <input type="number" name="number" id="checkout_number" value="[[+fi.number]]" />
-                <label class="error">[[+fi.error.number]]</label>
-            </div>
-        
+            
             <div>
                 <label for="checkout_zip">[[%simplecart.orderdetails.address.zip]]: <span>*</span></label>
                 <input type="text" name="zip" id="checkout_zip" value="[[+fi.zip]]" />

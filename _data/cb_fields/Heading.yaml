@@ -1,0 +1,11 @@
+id: 1
+input: heading
+name: Heading
+description: 'What it says on the tin. Simple heading for use on regular content pages. '
+sortorder: 1
+icon: heading
+template: '<[[+level]]>[[+value]]</[[+level]]>'
+properties: '{"default_level":"h2","available_levels":"h1=heading_1,h2=heading_2,h3=heading_3,h4=heading_4,h5=heading_5","use_tinyrte":"1"}'
+availability: ''
+layouts: ''
+settings: '[]'

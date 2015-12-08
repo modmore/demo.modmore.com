@@ -1,0 +1,12 @@
+id: 13
+input: chunk
+name: Checkout
+description: ''
+sortorder: 13
+icon: chunk_B
+template: '[[+tag]]'
+properties: '{"chunk":"48","custom_preview":"<p>Shows the checkout form and payment methods.<\/p>"}'
+availability: '[]'
+layouts: ''
+times_per_page: 1
+settings: '[]'

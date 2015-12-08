@@ -1,0 +1,5 @@
+id: 8
+template_group: 1
+name: SimpleCartPolicyTemplate
+description: 'SimpleCart Policy Template with all attributes'
+lexicon: 'simplecart:permissions'

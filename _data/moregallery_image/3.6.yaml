@@ -1,0 +1,15 @@
+id: 6
+resource: 3
+filename: indy.jpg
+file: 6_indy.jpg
+mgr_thumb: _thumbs/6_9f644238643117fe3effb25cd0392c9b.png
+exif: 'a:15:{s:8:"FileName";s:10:"6_indy.jpg";s:12:"FileDateTime";i:1448459123;s:8:"FileSize";i:128976;s:8:"FileType";i:2;s:8:"MimeType";s:10:"image/jpeg";s:13:"SectionsFound";s:19:"ANY_TAG, IFD0, EXIF";s:8:"COMPUTED";a:5:{s:4:"html";s:24:"width="500" height="666"";s:6:"Height";i:666;s:5:"Width";i:500;s:7:"IsColor";i:1;s:17:"ByteOrderMotorola";i:1;}s:11:"Orientation";i:1;s:11:"XResolution";s:4:"72/1";s:11:"YResolution";s:4:"72/1";s:14:"ResolutionUnit";i:2;s:16:"Exif_IFD_Pointer";i:90;s:10:"ColorSpace";i:1;s:14:"ExifImageWidth";i:500;s:15:"ExifImageLength";i:666;}'
+width: 500
+height: 666
+name: Indy
+description: ''
+url: ''
+sortorder: 6
+uploadedon: 1448459124
+uploadedby: 1
+editedby: 1

@@ -1,4 +1,4 @@
-id: 1
+id: 12
 name: ClientConfig
 description: 'Sets system settings from the Client Config CMP.'
 properties: null

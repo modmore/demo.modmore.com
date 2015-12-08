@@ -1,0 +1,11 @@
+id: 5
+input: chunk
+name: 'Subscription Box'
+description: 'Adds a callout in between sections that lets people sign up for the modmore.com mailing list'
+sortorder: 5
+icon: snippet_C
+template: '[[+tag]]'
+properties: '{"chunk":"41","custom_preview":"<img src=\"\/assets\/uploads\/images\/subscribebox.png\" \n    alt=\"Subscription box preview\"\n    style=\"width: 100%;\"\n>"}'
+availability: '[]'
+layouts: ''
+settings: '[]'

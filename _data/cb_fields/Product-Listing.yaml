@@ -1,0 +1,12 @@
+id: 11
+input: chunk
+name: 'Product Listing'
+description: ''
+sortorder: 11
+icon: chunk_B
+template: '[[+tag]]'
+properties: '{"chunk":"43","custom_preview":"<p>This will show all products in this category in a nice list, with big images.<\/p>"}'
+availability: '[]'
+layouts: ''
+times_per_page: 1
+settings: '[]'

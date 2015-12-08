@@ -1,0 +1,11 @@
+id: 8
+name: 'Two Columns'
+description: 'Two column split.'
+sortorder: 2
+icon: layout_1-1
+columns: '[{"reference":"col_1","width":50},{"reference":"col_2","width":50}]'
+template: "<section class=\"vertical-padding\" style=\"background: [[+background]]\">\n\t<div class=\"container\">\n\t    <div class=\"row\">\n\t\t\t<div class=\"col-md-6 col-sm-12 [[+left_classes]]\">\n\t\t\t\t[[+col_1]]\n\t\t\t</div>\n\t\t\t<div class=\"col-md-6 col-sm-12 [[+right_classes]]\">\n\t\t\t    [[+col_2]]\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>"
+availability: '[]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[{"reference":"background","title":"Background","fieldtype":"select","default_value":"transparent","fieldoptions":"[[getAvailableBackgrounds]]","field_is_exposed":"asSetting","process_tags":"1"},{"reference":"left_classes","title":"Classes for Left Column","fieldtype":"textfield","default_value":"","fieldoptions":"","field_is_exposed":"modal"},{"reference":"right_classes","title":"Classes for Right Column","fieldtype":"textfield","default_value":"","fieldoptions":"","field_is_exposed":"modal"}]'

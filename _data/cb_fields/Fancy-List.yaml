@@ -1,0 +1,11 @@
+id: 8
+input: list
+name: 'Fancy List'
+description: 'With the Fancy List field, you get an easy to use list with visual checkboxes on the front-end. '
+sortorder: 8
+icon: orderedlist
+template: '<li>[[+value]] [[+items]]</li>'
+properties: '{"wrapper_template":"<ul class=\"rst-list\">[[+items]]<\/ul>","nested_template":"<ul class=\"sub\">[[+items]]<\/ul>","use_tinyrte":"1"}'
+availability: '[]'
+layouts: ''
+settings: '[]'

@@ -1,0 +1,4 @@
+id: 1
+name: 'Welcome to Alpacalicious'
+description: 'Alpacalicious is a demo site for <a href="https://www.modmore.com/">modmore</a>. Feel free to poke around, just keep in mind that the site is regularly reset to a known state, and that certain features are locked down. If you''d like to create your own copy of this website, you can find instructions on how to do that with Gitify <a href="https://github.com/modmore/demo.modmore.com">on GitHub</a>.'
+perrow: three

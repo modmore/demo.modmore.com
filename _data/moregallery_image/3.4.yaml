@@ -1,0 +1,15 @@
+id: 4
+resource: 3
+filename: humphry.jpg
+file: 4_humphry.jpg
+mgr_thumb: _thumbs/4_1d9d6ea1a1159e192917ff9edc6bde96.png
+exif: "a:42:{s:8:\"FileName\";s:13:\"4_humphry.jpg\";s:12:\"FileDateTime\";i:1448459123;s:8:\"FileSize\";i:354942;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:30:\"ANY_TAG, IFD0, THUMBNAIL, EXIF\";s:8:\"COMPUTED\";a:8:{s:4:\"html\";s:26:\"width=\"1224\" height=\"1632\"\";s:6:\"Height\";i:1632;s:5:\"Width\";i:1224;s:7:\"IsColor\";i:1;s:17:\"ByteOrderMotorola\";i:1;s:15:\"ApertureFNumber\";s:5:\"f/2.4\";s:18:\"Thumbnail.FileType\";i:2;s:18:\"Thumbnail.MimeType\";s:10:\"image/jpeg\";}s:4:\"Make\";s:5:\"Apple\";s:5:\"Model\";s:9:\"iPhone 4S\";s:11:\"Orientation\";i:1;s:11:\"XResolution\";s:12:\"720000/10000\";s:11:\"YResolution\";s:12:\"720000/10000\";s:14:\"ResolutionUnit\";i:2;s:8:\"Software\";s:29:\"Adobe Photoshop CS4 Macintosh\";s:8:\"DateTime\";s:19:\"2013:10:09 19:47:38\";s:16:\"YCbCrPositioning\";i:1;s:16:\"Exif_IFD_Pointer\";i:216;s:9:\"THUMBNAIL\";a:6:{s:11:\"Compression\";i:6;s:11:\"XResolution\";s:4:\"72/1\";s:11:\"YResolution\";s:4:\"72/1\";s:14:\"ResolutionUnit\";i:2;s:21:\"JPEGInterchangeFormat\";i:702;s:27:\"JPEGInterchangeFormatLength\";i:5756;}s:12:\"ExposureTime\";s:5:\"1/876\";s:7:\"FNumber\";s:4:\"12/5\";s:15:\"ExposureProgram\";i:2;s:15:\"ISOSpeedRatings\";i:50;s:11:\"ExifVersion\";s:4:\"0221\";s:16:\"DateTimeOriginal\";s:19:\"2013:09:13 14:33:21\";s:17:\"DateTimeDigitized\";s:19:\"2013:09:13 14:33:21\";s:23:\"ComponentsConfiguration\";s:4:\"\0\0\0\x01\";s:17:\"ShutterSpeedValue\";s:8:\"8055/824\";s:13:\"ApertureValue\";s:9:\"4312/1707\";s:15:\"BrightnessValue\";s:8:\"4149/503\";s:12:\"MeteringMode\";i:5;s:5:\"Flash\";i:16;s:11:\"FocalLength\";s:6:\"107/25\";s:15:\"SubjectLocation\";a:4:{i:0;i:1631;i:1;i:1223;i:2;i:881;i:3;i:881;}s:15:\"FlashPixVersion\";s:4:\"0100\";s:10:\"ColorSpace\";i:1;s:14:\"ExifImageWidth\";i:1224;s:15:\"ExifImageLength\";i:1632;s:13:\"SensingMethod\";i:2;s:12:\"ExposureMode\";i:0;s:12:\"WhiteBalance\";i:0;s:21:\"FocalLengthIn35mmFilm\";i:35;s:16:\"SceneCaptureType\";i:0;}"
+width: 1224
+height: 1632
+name: humphry
+description: ''
+url: ''
+sortorder: 3
+uploadedon: 1448459124
+uploadedby: 1
+editedby: 1

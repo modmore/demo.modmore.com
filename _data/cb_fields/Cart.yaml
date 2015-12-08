@@ -1,0 +1,12 @@
+id: 12
+input: chunk
+name: Cart
+description: ''
+sortorder: 12
+icon: chunk_B
+template: '[[+tag]]'
+properties: '{"chunk":"45","custom_preview":"<p>Shows the contents of the users'' cart, and a button to checkout.<\/p>"}'
+availability: '[{"field":"resource","value":"4"}]'
+layouts: ''
+times_per_page: 1
+settings: '[]'

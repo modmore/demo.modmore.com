@@ -1,0 +1,15 @@
+id: 2
+resource: 3
+filename: alpacas-alpacaoord.jpg
+file: 2_alpacas-alpacaoord.jpg
+mgr_thumb: _thumbs/2_1d5ac0df3606c17ca63394d19767443b.png
+exif: 'a:14:{s:8:"FileName";s:24:"2_alpacas-alpacaoord.jpg";s:12:"FileDateTime";i:1442741311;s:8:"FileSize";i:100523;s:8:"FileType";i:2;s:8:"MimeType";s:10:"image/jpeg";s:13:"SectionsFound";s:19:"ANY_TAG, IFD0, EXIF";s:8:"COMPUTED";a:5:{s:4:"html";s:25:"width="1904" height="879"";s:6:"Height";i:879;s:5:"Width";i:1904;s:7:"IsColor";i:1;s:17:"ByteOrderMotorola";i:1;}s:11:"Orientation";i:1;s:11:"XResolution";s:4:"72/1";s:11:"YResolution";s:4:"72/1";s:14:"ResolutionUnit";i:2;s:16:"Exif_IFD_Pointer";i:90;s:14:"ExifImageWidth";i:1904;s:15:"ExifImageLength";i:879;}'
+width: 1904
+height: 879
+name: Cutie
+description: '<p>This one in front is really cute, but the rest are cool too!</p>'
+url: ''
+sortorder: 2
+uploadedon: 1442741311
+uploadedby: 1
+editedby: 1

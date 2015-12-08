@@ -1,4 +1,4 @@
-id: 3
+id: 11
 name: blockdown
 description: 'MarkDown Input Type. Powered by EpicEditor and Parsedown.'
 category: Blockdown

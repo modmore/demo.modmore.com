@@ -1,0 +1,16 @@
+id: 3
+set: 1
+icon: 241
+icon_ms: null
+icon_file: null
+text: 'Check out MoreGallery'
+description: 'The Alpaca Photos resource uses MoreGallery to manage a collection of photos.'
+action_id: null
+action_key: resource/update
+action_namespace: core
+action_props: id=3
+handler: null
+link: null
+ranking: 2
+iconcls: fa-picture-o
+iconpath: ''

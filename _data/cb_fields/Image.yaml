@@ -1,0 +1,11 @@
+id: 3
+input: image_with_title
+name: Image
+description: 'Insert a simple image with an alt tag.'
+sortorder: 3
+icon: image
+template: "<a href=\"[[+url]]\" class=\"fancybox-media\" title=\"[[+title:htmlent]]\">\n    <img src=\"[[+url]]\" alt=\"[[+title:htmlent]]\">\n</a>"
+properties: '{"source":"0","directory":"uploads\/images\/","file_types":"png,gif,jpg,jpeg","use_tinyrte":"0"}'
+availability: '[]'
+layouts: ''
+settings: '[]'

@@ -1,0 +1,11 @@
+id: 4
+input: repeater
+name: Carousel
+description: ''
+sortorder: 4
+icon: gallery
+template: "<div class=\"rst-index-slider\">\n\t<div class=\"rst-slider-background\" style=\"background: url('[[+image]]') no-repeat top center;\"></div>\n\t<div class=\"container\">\n\t\t<div>\n\t\t\t<h3>[[+heading]]</h3>\n\t\t\t[[+content]]\n\t\t\t\n\t\t\t[[+button1:notempty=`\n\t\t\t    <a href=\"[[+button1]]\" class=\"btn btn-primary\">[[+button1_text]]</a>\n\t\t    `]]\n\t\t\t[[+button2:notempty=`\n\t\t\t    <a href=\"[[+button2]]\" class=\"btn btn-info\">[[+button2_text]]</a>\n\t\t    `]]\n\t\t</div>\n\t</div>\n</div>"
+properties: '{"wrapper_template":"<div class=\"rst-header-banner owl-carousel\" id=\"rst-index-banner\">\n\t[[+rows]]\n<\/div>","group":"[{\"id\":\"\",\"input\":\"textfield\",\"key\":\"heading\",\"name\":\"Heading\",\"width\":60,\"sortorder\":\"0\",\"template\":\"[[+value]]\",\"properties\":{}},{\"id\":\"\",\"input\":\"richtext\",\"key\":\"content\",\"name\":\"Content\",\"width\":60,\"sortorder\":\"0\",\"template\":\"[[+value]]\",\"properties\":{}},{\"id\":\"\",\"input\":\"image\",\"key\":\"image\",\"name\":\"Background Image\",\"width\":40,\"sortorder\":\"0\",\"template\":\"[[+url]]\",\"properties_source\":\"0\",\"properties_directory\":\"uploads\/images\/background\/\",\"properties_file_types\":\"png,gif,jpg,jpeg\",\"properties\":{\"source\":\"0\",\"directory\":\"uploads\/images\/background\/\",\"file_types\":\"png,gif,jpg,jpeg\"}},{\"id\":\"\",\"input\":\"link\",\"key\":\"button1\",\"name\":\"Button 1\",\"width\":\"50\",\"sortorder\":\"0\",\"template\":\"[[+link]]\",\"properties_link_detection_pattern_override\":\"\",\"properties\":{\"link_detection_pattern_override\":\"\"}},{\"id\":\"\",\"input\":\"textfield\",\"key\":\"button1_text\",\"name\":\"Text\",\"width\":\"50\",\"sortorder\":\"0\",\"template\":\"[[+value]]\",\"properties\":{}},{\"id\":\"\",\"input\":\"link\",\"key\":\"button2\",\"name\":\"Button 2\",\"width\":\"50\",\"sortorder\":\"0\",\"template\":\"[[+link]]\",\"properties_link_detection_pattern_override\":\"\",\"properties\":{\"link_detection_pattern_override\":\"\"}},{\"id\":\"\",\"input\":\"textfield\",\"key\":\"button2_text\",\"name\":\"Text\",\"width\":\"50\",\"sortorder\":\"0\",\"template\":\"[[+value]]\",\"properties\":{}}]","row_separator":"","max_items":"0"}'
+availability: '[]'
+layouts: ''
+settings: '[]'

@@ -1,0 +1,16 @@
+id: 5
+set: 1
+icon: 96
+icon_ms: null
+icon_file: null
+text: 'Manage ContentBlocks Data'
+description: 'The fields and layouts in ContentBlocks are managed via Extras > ContentBlocks. '
+action_id: 10
+action_key: null
+action_namespace: null
+action_props: ''
+handler: null
+link: null
+ranking: 4
+iconcls: fa-cogs
+iconpath: ''

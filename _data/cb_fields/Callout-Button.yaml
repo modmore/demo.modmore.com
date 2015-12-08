@@ -1,0 +1,11 @@
+id: 7
+input: link
+name: 'Callout Button'
+description: 'Adds a button with a link'
+sortorder: 7
+icon: snippet_C
+template: '<a href="[[+link]]" class="btn btn-[[+type]]">[[+text]]</a>'
+properties: '{"link_detection_pattern_override":""}'
+availability: ''
+layouts: ''
+settings: '[{"reference":"type","title":"Button Type","fieldtype":"select","default_value":"primary","fieldoptions":"Primary=primary\nInformation=info\nSuccess=success\nWarning=warning\nDanger=danger\nLink=link","field_is_exposed":"asField"},{"reference":"text","title":"Text","fieldtype":"textfield","default_value":"","fieldoptions":"","field_is_exposed":"asField"}]'

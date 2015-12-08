@@ -1,0 +1,15 @@
+id: 10
+resource: 3
+filename: seanconnery.jpg
+file: 10_seanconnery.jpg
+mgr_thumb: _thumbs/10_a59f5fd23222935bd985649fc7208393.png
+exif: 'a:7:{s:8:"FileName";s:18:"10_seanconnery.jpg";s:12:"FileDateTime";i:1448459125;s:8:"FileSize";i:64484;s:8:"FileType";i:2;s:8:"MimeType";s:10:"image/jpeg";s:13:"SectionsFound";s:0:"";s:8:"COMPUTED";a:4:{s:4:"html";s:24:"width="720" height="960"";s:6:"Height";i:960;s:5:"Width";i:720;s:7:"IsColor";i:1;}}'
+width: 720
+height: 960
+name: 'Sean Connery'
+description: ''
+url: ''
+sortorder: 10
+uploadedon: 1448459126
+uploadedby: 1
+editedby: 1

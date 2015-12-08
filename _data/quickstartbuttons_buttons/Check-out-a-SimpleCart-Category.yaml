@@ -1,0 +1,16 @@
+id: 4
+set: 1
+icon: 280
+icon_ms: null
+icon_file: null
+text: 'Check out a SimpleCart Category'
+description: 'SimpleCart has Category and Product resource types. You can find a category here with products.'
+action_id: null
+action_key: resource/update
+action_namespace: core
+action_props: id=8
+handler: null
+link: null
+ranking: 3
+iconcls: fa-shopping-cart
+iconpath: ''

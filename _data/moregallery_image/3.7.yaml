@@ -1,0 +1,15 @@
+id: 7
+resource: 3
+filename: rose.jpg
+file: 7_rose.jpg
+mgr_thumb: _thumbs/7_6f299da6420937cf7fb844bfdc40f122.png
+exif: 'a:7:{s:8:"FileName";s:10:"7_rose.jpg";s:12:"FileDateTime";i:1448459123;s:8:"FileSize";i:57529;s:8:"FileType";i:2;s:8:"MimeType";s:10:"image/jpeg";s:13:"SectionsFound";s:0:"";s:8:"COMPUTED";a:4:{s:4:"html";s:24:"width="403" height="537"";s:6:"Height";i:537;s:5:"Width";i:403;s:7:"IsColor";i:1;}}'
+width: 403
+height: 537
+name: Rose
+description: ''
+url: ''
+sortorder: 7
+uploadedon: 1448459124
+uploadedby: 1
+editedby: 1

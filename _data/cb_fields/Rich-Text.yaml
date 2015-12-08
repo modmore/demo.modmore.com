@@ -1,0 +1,11 @@
+id: 2
+input: richtext
+name: 'Rich Text'
+description: 'For paragraphs of textual content. This will load the Redactor editor into the canvas. '
+sortorder: 2
+icon: richtext
+template: '[[+value]]'
+properties: '[]'
+availability: ''
+layouts: ''
+settings: '[]'

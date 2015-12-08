@@ -1,0 +1,9 @@
+id: 1
+username: demo_admin
+password: BgxYUyZjzAKGDciwUTZJu1ACaw9+TG1kRXhyhW1y4hM=
+remote_key: null
+remote_data: null
+salt: e6aba9f637a6eeb4734a3963a40db65a
+primary_group: 1
+session_stale: 'a:2:{i:0;s:3:"mgr";i:1;s:3:"web";}'
+sudo: 1

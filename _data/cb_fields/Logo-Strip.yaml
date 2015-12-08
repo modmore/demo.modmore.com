@@ -1,0 +1,11 @@
+id: 10
+input: repeater
+name: 'Logo Strip'
+description: 'Provides a horizontal list of partner logos'
+sortorder: 10
+icon: gallery
+template: "<li><a href=\"[[+link]]\" target=\"_blank\" title=\"[[+company]]\">\n    <img src=\"[[+logo]]\" alt=\"[[+company]]\">\n</a></li>"
+properties: '{"wrapper_template":"<div class=\"rst-partner\">\n\t<ul>\n\t\t[[+rows]]\n\t<\/ul>\n<\/div>","group":"[{\"id\":\"\",\"input\":\"image\",\"key\":\"logo\",\"name\":\"Logo\",\"width\":\"30\",\"sortorder\":\"0\",\"template\":\"[[+url]]\",\"properties_source\":\"0\",\"properties_directory\":\"uploads\/images\/logos\/\",\"properties_file_types\":\"png,gif,jpg,jpeg\",\"properties\":{\"source\":\"0\",\"directory\":\"uploads\/images\/logos\/\",\"file_types\":\"png,gif,jpg,jpeg\"}},{\"id\":\"\",\"input\":\"link\",\"key\":\"link\",\"name\":\"Link\",\"width\":\"34\",\"sortorder\":\"0\",\"template\":\"[[+link]]\",\"properties_link_detection_pattern_override\":\"\",\"properties\":{\"link_detection_pattern_override\":\"\"}},{\"id\":\"\",\"input\":\"textfield\",\"key\":\"company\",\"name\":\"Company\",\"width\":\"33\",\"sortorder\":\"0\",\"template\":\"[[+value:htmlent]]\",\"properties\":{}}]","row_separator":"","max_items":"0"}'
+availability: ''
+layouts: ''
+settings: '[]'

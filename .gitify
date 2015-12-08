@@ -61,6 +61,13 @@ data:
         primary: key
         exclude_keys:
             - editedon
+        where:
+            - 'key:NOT IN':
+                - 'demo-reset-time'
+                - 'emailsender'
+                - 'mail_smtp_pass'
+                - 'mail_smtp_port'
+                - 'mail_smtp_user'
     extension_packages:
         class: modExtensionPackage
         primary: namespace
@@ -106,6 +113,84 @@ data:
         primary:
             - dashboard
             - widget
+
+    quickstartbuttons_sets:
+        class: qsbSet
+        primary: name
+        package: quickstartbuttons
+    quickstartbuttons_set_usergroups:
+        class: qsbSetUserGroup
+        primary: [usergoup, set]
+    quickstartbuttons_icons:
+        class: qsbIcon
+        primary: name
+    quickstartbuttons_buttons:
+        class: qsbButton
+        primary: text
+
+    cb_fields:
+        class: cbField
+        primary: name
+        package: contentblocks
+    cb_layouts:
+        class: cbLayout
+        primary: name
+    cb_templates:
+        class: cbTemplate
+        primary: name
+    cb_defaults:
+        class: cbDefault
+        primary: id
+
+    moregallery_image:
+        class: mgImage
+        primary: [resource, id]
+        package: moregallery
+        exclude_keys:
+          - editedon
+          - mgr_thumb_path
+          - file_url
+          - file_path
+          - view_url
+    moregallery_image_tag:
+        class: mgImageTag
+        primary: id
+    moregallery_image_crop:
+        class: mgImageCrop
+        primary: id
+    moregallery_tag:
+        class: mgTag
+        primary: display
+
+    users:
+        class: modUser
+        primary: id
+    user_profiles:
+        class: modUserProfile
+        primary: internalKey
+        exclude_keys:
+          - sessionid
+          - thislogin
+          - lastlogin
+          - logincount
+          - failedloginattempts
+    user_groups:
+        class: modUserGroup
+        primary: id
+    user_group_members:
+        class: modUserGroupMember
+        primary: id
+    user_group_roles:
+        class: modUserGroupRole
+        primary: id
+
+    access_policies:
+        class: modAccessPolicy
+    access_policy_templates:
+        class: modAccessPolicyTemplate
+    access_policy_template_groups:
+        class: modAccessPolicyTemplateGroup
+
 packages:
     modx.com:
         service_url: 'http://rest.modx.com/extras/'
@@ -121,16 +206,13 @@ packages:
         description: 'demo.modmore.com v2'
         credential_file: '.demo.modmore.com.key'
         packages:
-            - blockdown-0.1.0-pl
-            - clientconfig-1.3.1-pl
-            - contentblocks-1.2.7-pl
-            - simplecart_mollie-1.1.3-pl
-            - moregallery-1.3.5-pl
-            - oembedinput-1.1.0-pl
-            - simplecart_paypal-1.1.2-pl
-            - quickstartbuttons-1.2.0-pl
-            - redactor-2.0.1-pl
-            - scheduler-1.1.0-pl
-            - simpleab-1.1.3-pl
-            - simplecart-2.3.0-rc6
-            - simplecart_stripe-1.0.0-pl
+            - blockdown
+            - clientconfig
+            - contentblocks
+            - moregallery
+            - oembedinput
+            - quickstartbuttons
+            - redactor
+            - scheduler
+            - simpleab
+            - simplecart

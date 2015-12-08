@@ -1,0 +1,15 @@
+id: 1
+resource: 3
+filename: alpaca-friends.jpg
+file: 1_alpaca-friends.jpg
+mgr_thumb: _thumbs/1_e9b1ba23646f528c71f89c908a0378ce.png
+exif: "a:58:{s:8:\"FileName\";s:20:\"1_alpaca-friends.jpg\";s:12:\"FileDateTime\";i:1442741266;s:8:\"FileSize\";i:327296;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:39:\"ANY_TAG, IFD0, THUMBNAIL, EXIF, INTEROP\";s:8:\"COMPUTED\";a:10:{s:4:\"html\";s:24:\"width=\"639\" height=\"425\"\";s:6:\"Height\";i:425;s:5:\"Width\";i:639;s:7:\"IsColor\";i:1;s:17:\"ByteOrderMotorola\";i:1;s:15:\"ApertureFNumber\";s:5:\"f/5.6\";s:11:\"UserComment\";s:1:\" \";s:19:\"UserCommentEncoding\";s:5:\"ASCII\";s:18:\"Thumbnail.FileType\";i:2;s:18:\"Thumbnail.MimeType\";s:10:\"image/jpeg\";}s:4:\"Make\";s:17:\"NIKON CORPORATION\";s:5:\"Model\";s:9:\"NIKON D90\";s:11:\"Orientation\";i:1;s:11:\"XResolution\";s:5:\"300/1\";s:11:\"YResolution\";s:5:\"300/1\";s:14:\"ResolutionUnit\";i:2;s:8:\"Software\";s:27:\"Adobe Photoshop CS2 Windows\";s:8:\"DateTime\";s:19:\"2010:10:01 10:09:04\";s:16:\"YCbCrPositioning\";i:1;s:16:\"Exif_IFD_Pointer\";i:228;s:9:\"THUMBNAIL\";a:6:{s:11:\"Compression\";i:6;s:11:\"XResolution\";s:5:\"300/1\";s:11:\"YResolution\";s:5:\"300/1\";s:14:\"ResolutionUnit\";i:2;s:21:\"JPEGInterchangeFormat\";i:958;s:27:\"JPEGInterchangeFormatLength\";i:4843;}s:12:\"ExposureTime\";s:6:\"5/1000\";s:7:\"FNumber\";s:5:\"56/10\";s:15:\"ExposureProgram\";i:0;s:15:\"ISOSpeedRatings\";i:400;s:11:\"ExifVersion\";s:4:\"0221\";s:16:\"DateTimeOriginal\";s:19:\"2010:10:01 09:43:47\";s:17:\"DateTimeDigitized\";s:19:\"2010:10:01 09:43:47\";s:23:\"ComponentsConfiguration\";s:4:\"\x01\x02\x03\0\";s:17:\"ExposureBiasValue\";s:3:\"0/6\";s:16:\"MaxApertureValue\";s:3:\"5/1\";s:12:\"MeteringMode\";i:5;s:11:\"LightSource\";i:0;s:5:\"Flash\";i:24;s:11:\"FocalLength\";s:5:\"300/1\";s:11:\"UserComment\";s:44:\"ASCII\0\0\0 \0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\";s:10:\"SubSecTime\";s:2:\"00\";s:18:\"SubSecTimeOriginal\";s:2:\"00\";s:19:\"SubSecTimeDigitized\";s:2:\"00\";s:15:\"FlashPixVersion\";s:4:\"0100\";s:10:\"ColorSpace\";i:1;s:14:\"ExifImageWidth\";i:4288;s:15:\"ExifImageLength\";i:2848;s:22:\"InteroperabilityOffset\";i:832;s:13:\"SensingMethod\";i:2;s:10:\"FileSource\";s:1:\"\x03\";s:9:\"SceneType\";s:1:\"\x01\";s:10:\"CFAPattern\";s:8:\"\0\x02\0\x02\x01\x02\0\x01\";s:14:\"CustomRendered\";i:0;s:12:\"ExposureMode\";i:0;s:12:\"WhiteBalance\";i:0;s:16:\"DigitalZoomRatio\";s:3:\"1/1\";s:21:\"FocalLengthIn35mmFilm\";i:450;s:16:\"SceneCaptureType\";i:0;s:11:\"GainControl\";i:1;s:8:\"Contrast\";i:0;s:10:\"Saturation\";i:0;s:9:\"Sharpness\";i:0;s:20:\"SubjectDistanceRange\";i:0;s:21:\"InterOperabilityIndex\";s:3:\"R98\";s:23:\"InterOperabilityVersion\";s:4:\"0100\";}"
+width: 639
+height: 425
+name: 'Alpaca Friends'
+description: '<p>These two are best buddies.</p>'
+url: ''
+sortorder: 1
+uploadedon: 1442741266
+uploadedby: 1
+editedby: 1

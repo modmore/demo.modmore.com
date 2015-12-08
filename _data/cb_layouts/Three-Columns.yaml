@@ -1,0 +1,11 @@
+id: 6
+name: 'Three Columns'
+description: 'Three column grid, ideal for introducing features. '
+sortorder: 1
+icon: layout_1-1-1
+columns: '[{"reference":"col_1","width":33},{"reference":"col_2","width":34},{"reference":"col_3","width":33}]'
+template: "<section class=\"vertical-padding\" style=\"background: [[+background]]\">\n\t<div class=\"container\">\n\t    <div class=\"row\">\n\t\t\t<div class=\"col-md-4 col-sm-12 rst-excerpt\">\n\t\t\t\t[[+col_1]]\n\t\t\t</div>\n\t\t\t<div class=\"col-md-4 col-sm-12\">\n\t\t\t    [[+col_2]]\n\t\t\t</div>\n\t\t\t<div class=\"col-md-4 col-sm-12\">\n\t\t\t    [[+col_3]]\n\t\t\t</div>\t\n\t\t</div>\n\t</div>\n</section>"
+availability: '[]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[{"reference":"background","title":"Background","fieldtype":"select","default_value":"transparent","fieldoptions":"[[getAvailableBackgrounds]]","field_is_exposed":"asSetting","process_tags":"1"}]'

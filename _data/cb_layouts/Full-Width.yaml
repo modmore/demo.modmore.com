@@ -1,0 +1,10 @@
+id: 1
+name: 'Full Width'
+description: 'A full width (100%) layout, single column.'
+icon: layout_1
+columns: '[{"reference":"main","width":"100"}]'
+template: "<section style=\"background: [[+background]]\"\n         class=\"[[+alignment]] [[+special]]\">\n    [[+main]]\n</section>"
+availability: '[]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[{"reference":"background","title":"Background","fieldtype":"select","default_value":"transparent","fieldoptions":"[[getAvailableBackgrounds]]","field_is_exposed":"asField","process_tags":"1"},{"reference":"alignment","title":"Alignment","fieldtype":"select","default_value":"text-left","fieldoptions":"Left=text-left\nCenter=text-center\nRight=text-right\nJustified=text-justify","field_is_exposed":"asField"},{"reference":"special","title":"Special Options","fieldtype":"select","default_value":"","fieldoptions":"None= \nText + Button Callout=rst-page-shortdes","field_is_exposed":"asField"}]'

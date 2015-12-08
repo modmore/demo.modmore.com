@@ -1,0 +1,11 @@
+id: 7
+name: 'Full Width, contained'
+description: 'A contained width layout, single column. '
+sortorder: 4
+icon: layout_1
+columns: '[{"reference":"main","width":"100"}]'
+template: "<section style=\"background: [[+background]]\"\n         class=\"[[+alignment]] [[+special]]\">\n    <div class=\"container\">\n        [[+width:notempty=`<div class=\"row\"><div class=\"[[+width]]\">`]]\n        [[+main]]\n        [[+width:notempty=`</div></div>`]]\n    </div>\n</section>"
+availability: '[]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[{"reference":"background","title":"Background","fieldtype":"select","default_value":"transparent","fieldoptions":"[[getAvailableBackgrounds]]","field_is_exposed":"asField","process_tags":"1"},{"reference":"alignment","title":"Alignment","fieldtype":"select","default_value":"text-left","fieldoptions":"Left=text-left\nCenter=text-center\nRight=text-right\nJustified=text-justify","field_is_exposed":"asField"},{"reference":"special","title":"Special Options","fieldtype":"select","default_value":"","fieldoptions":"None= \nText + Button Callout=rst-page-shortdes","field_is_exposed":"asField"},{"reference":"width","title":"Inner Width","fieldtype":"select","default_value":"col-sm-12","fieldoptions":"Full=col-sm-12\n10/12th=col-md-10 col-sm-12\n8/12th=col-md-8 col-sm-12\n6/12th=col-md-6 col-sm-12\n4/12th=col-md-4 col-sm-10\n2/12th=col-md-2 col-sm-6","field_is_exposed":"asField"}]'
