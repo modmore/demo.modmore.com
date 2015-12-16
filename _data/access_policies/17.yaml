@@ -1,6 +1,6 @@
-id: 13
+id: 17
 name: SimpleCartAdmin
 description: 'Administrator policy for SimpleCart with all permissions'
-template: 8
+template: 9
 data: '{"simplecart_coupons":true,"simplecart_freeproducts":true,"simplecart_manage":true,"simplecart_manage_admin":true,"simplecart_orders":true,"simplecart_stock":true,"simplecart_userdiscounts":true}'
 lexicon: 'simplecart:permissions'

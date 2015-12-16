@@ -1,4 +1,4 @@
 key: simplecart.orderstatusupdate_emailtpl
-value: scartEmailOrderStatusUpdate
+value: scEmailOrderStatusUpdate
 namespace: simplecart
 area: manager

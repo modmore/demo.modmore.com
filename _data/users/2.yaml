@@ -4,4 +4,4 @@ password: 9jMiE3cxvJ4SM5JN3dJXQ5aitgcy9xfKLJuEMewG5r4=
 remote_key: null
 remote_data: null
 salt: e34e26c8056ea7eac878cd7a27387617
-session_stale: null
+session_stale: 'a:0:{}'

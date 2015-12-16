@@ -9,7 +9,7 @@ if ($modx->getOption('http_host') == 'demo.modmore.com') {
     Ext.onReady(function() {
         document.getElementById("modx-login-username").value = "demo";
         document.getElementById("modx-login-password").value = "demouser";
-        //document.getElementById("modx-login-btn").click();
+        document.getElementById("modx-login-btn").click();
     });
     </script>';
     

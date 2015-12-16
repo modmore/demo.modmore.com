@@ -5,7 +5,7 @@ icon_ms: null
 icon_file: null
 text: 'Manage ContentBlocks Data'
 description: 'The fields and layouts in ContentBlocks are managed via Extras > ContentBlocks. '
-action_id: 10
+action_id: 81
 action_key: null
 action_namespace: null
 action_props: ''

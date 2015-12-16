@@ -1,13 +1,9 @@
 id: 6
 set: 1
 icon: 229
-icon_ms: null
 icon_file: null
 text: 'View Orders in SimpleCart'
 description: 'The SimpleCart back-end contains an overview of placed orders and their statuses.'
-action_id: null
-action_key: null
-action_namespace: null
 action_props: ''
 handler: null
 link: '?a=manage&namespace=simplecart'

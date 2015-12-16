@@ -1,0 +1,12 @@
+id: 3
+type: redactor
+name: redactor_v3
+caption: 'Redactor with Counter and Breadcrumbs plugins enabled'
+category: Blockdown
+elements: ''
+display: default
+default_text: ''
+properties: 'a:0:{}'
+input_properties: 'a:53:{s:10:"autoresize";s:7:"inherit";s:7:"cleanup";s:7:"inherit";s:11:"convertdivs";s:7:"inherit";s:10:"codemirror";s:7:"inherit";s:11:"cleanSpaces";s:7:"inherit";s:12:"convertlinks";s:7:"inherit";s:3:"wym";s:1:"1";s:10:"typewriter";s:7:"inherit";s:12:"buttonSource";s:7:"inherit";s:16:"buttonFullScreen";s:1:"1";s:15:"toolbarOverflow";s:7:"inherit";s:12:"toolbarFixed";s:7:"inherit";s:9:"direction";s:7:"inherit";s:12:"linkProtocol";s:7:"inherit";s:8:"noFollow";s:7:"inherit";s:10:"dragUpload";s:7:"inherit";s:17:"convertImageLinks";s:7:"inherit";s:10:"breadcrumb";s:1:"1";s:8:"contrast";s:7:"inherit";s:7:"counter";s:1:"1";s:7:"dowload";s:7:"inherit";s:6:"eureka";s:7:"inherit";s:9:"fontcolor";s:7:"inherit";s:8:"fontsize";s:7:"inherit";s:7:"imagepx";s:7:"inherit";s:7:"limiter";s:7:"inherit";s:7:"norphan";s:7:"inherit";s:8:"replacer";s:7:"inherit";s:5:"speek";s:7:"inherit";s:6:"syntax";s:1:"1";s:5:"table";s:7:"inherit";s:13:"textdirection";s:7:"inherit";s:12:"textexpander";s:7:"inherit";s:14:"use_uploadcare";s:1:"0";s:4:"zoom";s:7:"inherit";s:17:"convertVideoLinks";s:1:"1";s:4:"lang";s:0:"";s:11:"allowedTags";s:0:"";s:10:"deniedTags";s:0:"";s:14:"formattingTags";s:0:"";s:10:"stylesJson";s:0:"";s:9:"clipsJson";s:0:"";s:6:"colors";s:0:"";s:7:"buttons";s:0:"";s:19:"buttonsHideOnMobile";s:0:"";s:9:"minHeight";s:0:"";s:11:"mediasource";s:0:"";s:16:"file_mediasource";s:0:"";s:17:"image_upload_path";s:0:"";s:17:"image_browse_path";s:0:"";s:16:"file_upload_path";s:0:"";s:16:"file_browse_path";s:0:"";s:15:"predefinedLinks";s:0:"";}'
+output_properties: 'a:0:{}'
+content: ''

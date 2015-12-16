@@ -1,0 +1,12 @@
+id: 4
+type: redactor
+name: redactor_v4
+caption: 'Redactor with Right-to-Left'
+category: Blockdown
+elements: ''
+display: default
+default_text: ''
+properties: 'a:0:{}'
+input_properties: 'a:21:{s:3:"air";s:7:"inherit";s:10:"autoresize";s:7:"inherit";s:7:"cleanup";s:7:"inherit";s:11:"convertdivs";s:7:"inherit";s:12:"convertlinks";s:7:"inherit";s:3:"wym";s:7:"inherit";s:12:"buttonSource";s:7:"inherit";s:9:"direction";s:3:"rtl";s:12:"linkProtocol";s:7:"inherit";s:6:"mobile";s:7:"inherit";s:4:"lang";s:2:"en";s:11:"allowedTags";s:0:"";s:10:"deniedTags";s:0:"";s:14:"formattingTags";s:0:"";s:6:"colors";s:0:"";s:10:"airButtons";s:0:"";s:7:"buttons";s:0:"";s:9:"minHeight";s:0:"";s:11:"mediasource";s:0:"";s:17:"image_upload_path";s:0:"";s:16:"file_upload_path";s:0:"";}'
+output_properties: 'a:0:{}'
+content: ''
