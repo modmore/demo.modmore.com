@@ -1,0 +1,12 @@
+id: 88
+parent: 10
+parent_properties: '{"key":"company","width":"33"}'
+name: Company
+description: null
+sortorder: 3
+icon: ''
+template: '[[+value:htmlent]]'
+properties: '[]'
+availability: null
+layouts: null
+settings: '[]'

@@ -14,8 +14,8 @@ properties: null
  * @package contentblocks
  */
 
-$corePath = $modx->getOption('contentblocks.core_path', null, $modx->getOption('core_path').'components/contentblocks/');
-$assetsUrl = $modx->getOption('contentblocks.assets_url', null, $modx->getOption('assets_url').'components/contentblocks/');
+$corePath = $modx->getOption('contentblocks.core_path', null, $modx->getOption('core_path') . 'components/contentblocks/');
+$assetsUrl = $modx->getOption('contentblocks.assets_url', null, $modx->getOption('assets_url') . 'components/contentblocks/');
 
 /**
  * @var ContentBlocks $ContentBlocks
@@ -23,7 +23,7 @@ $assetsUrl = $modx->getOption('contentblocks.assets_url', null, $modx->getOption
  * @var modX $modx
  * @var array $scriptProperties
  */
-$ContentBlocks = $modx->getService('contentblocks','ContentBlocks', $corePath.'model/contentblocks/');
+$ContentBlocks = $modx->getService('contentblocks', 'ContentBlocks', $corePath . 'model/contentblocks/');
 
 switch ($modx->event->name) {
     case 'OnDocFormPrerender':
@@ -110,6 +110,7 @@ switch ($modx->event->name) {
         $templates = $modx->toJSON($objects['templates']);
 
         $contents = $modx->toJSON($contents);
+        $resourceInfo = $modx->toJSON($resource->get(array('id', 'pagetitle', 'context_key')));
         $config = $modx->toJSON($ContentBlocks->config);
 
         $modx->controller->addHtml(<<<HTML
@@ -119,7 +120,8 @@ switch ($modx->event->name) {
         ContentBlocksTemplates = $templates,
         ContentBlocksContents = $contents,
         ContentBlocksConfig = $config,
-        ContentBlocksWrapperCls = "$wrapperCls";
+        ContentBlocksWrapperCls = "$wrapperCls",
+        ContentBlocksResource = $resourceInfo;
 
     var cbGenerated = false;
     MODx.on('ready', function () {
@@ -142,7 +144,7 @@ switch ($modx->event->name) {
     });
 </script>
 HTML
-);
+        );
         $scriptTags = $ContentBlocks->getAssets();
         $modx->controller->addHtml($scriptTags);
 
@@ -150,10 +152,24 @@ HTML
 
     case 'OnDocFormSave':
         $ContentBlocks->setResource($resource);
+        $modx->resource = $resource;
 
         $cbJson = $resource->get('contentblocks');
 
         $cbContent = $modx->fromJSON($cbJson);
+
+        // RenderContent Event
+        $response = $modx->invokeEvent('ContentBlocks_RenderContent', array(
+            'vcContent' => $cbContent,
+            'vc' => $cbJson,
+            'resource' => $resource
+        ));
+        // check if customized content was returned
+        if (!empty($response) && is_array($response) && json_encode($response) !== '[""]') {
+            $cbContent = $response[0]['vcContent'];
+            $cbJson = $response[0]['vc'];
+        }
+
         if (!empty($cbJson) && $cbContent !== false && is_array($cbContent)) {
             $summary = $ContentBlocks->summarizeContent($cbContent);
             $resource->setProperties(array(

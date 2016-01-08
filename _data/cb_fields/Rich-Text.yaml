@@ -1,4 +1,5 @@
 id: 2
+parent_properties: null
 input: richtext
 name: 'Rich Text'
 description: 'For paragraphs of textual content. This will load the Redactor editor into the canvas. '

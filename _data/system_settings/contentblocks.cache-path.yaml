@@ -1,0 +1,4 @@
+key: contentblocks.cache_path
+value: assets/cbcache/
+namespace: contentblocks
+area: Core

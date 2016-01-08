@@ -1,0 +1,13 @@
+id: 92
+parent: 4
+parent_properties: '{"key":"button1","width":"50"}'
+input: link
+name: 'Button 1'
+description: null
+sortorder: 4
+icon: ''
+template: '[[+link]]'
+properties: '{"link_detection_pattern_override":""}'
+availability: null
+layouts: null
+settings: '[]'

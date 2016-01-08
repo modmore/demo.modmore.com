@@ -1,9 +1,9 @@
-id: 89
+id: 95
 parent: 4
-parent_properties: '{"key":"heading","width":60}'
-name: Heading
+parent_properties: '{"key":"button2_text","width":"50"}'
+name: Text
 description: null
-sortorder: 1
+sortorder: 7
 icon: ''
 template: '[[+value]]'
 properties: '[]'

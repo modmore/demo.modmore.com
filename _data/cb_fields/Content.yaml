@@ -1,9 +1,10 @@
-id: 89
+id: 90
 parent: 4
-parent_properties: '{"key":"heading","width":60}'
-name: Heading
+parent_properties: '{"key":"content","width":60}'
+input: richtext
+name: Content
 description: null
-sortorder: 1
+sortorder: 2
 icon: ''
 template: '[[+value]]'
 properties: '[]'

@@ -1,0 +1,6 @@
+id: 19
+name: 'SimpleCart Demo User'
+description: 'User policy for SimpleCart with selected permissions'
+template: 9
+data: '{"simplecart_coupons":true,"simplecart_freeproducts":true,"simplecart_manage":true,"simplecart_manage_admin":false,"simplecart_orders":true,"simplecart_stock":false,"simplecart_userdiscounts":false}'
+lexicon: 'simplecart:permissions'

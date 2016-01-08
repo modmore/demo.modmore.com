@@ -1,0 +1,13 @@
+id: 91
+parent: 4
+parent_properties: '{"key":"image","width":40}'
+input: image
+name: 'Background Image'
+description: null
+sortorder: 3
+icon: ''
+template: '[[+url]]'
+properties: '{"source":"0","directory":"uploads\/images\/background\/","file_types":"png,gif,jpg,jpeg"}'
+availability: null
+layouts: null
+settings: '[]'

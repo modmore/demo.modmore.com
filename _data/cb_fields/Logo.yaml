@@ -1,0 +1,13 @@
+id: 86
+parent: 10
+parent_properties: '{"key":"logo","width":"30"}'
+input: image
+name: Logo
+description: null
+sortorder: 1
+icon: ''
+template: '[[+url]]'
+properties: '{"source":"0","directory":"uploads\/images\/logos\/","file_types":"png,gif,jpg,jpeg"}'
+availability: null
+layouts: null
+settings: '[]'

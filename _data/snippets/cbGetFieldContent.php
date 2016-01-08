@@ -49,6 +49,8 @@ $fld = $modx->getOption('field', $scriptProperties, 0, true);
 $fieldSettingFilter = $modx->getOption('fieldSettingFilter', $scriptProperties, false, true); 
 $limit = $modx->getOption('limit', $scriptProperties, 0, true);
 $offset = $modx->getOption('offset', $scriptProperties, 0, true);
+$innerLimit = $modx->getOption('innerLimit', $scriptProperties, 0, true);
+$innerOffset = $modx->getOption('innerOffset', $scriptProperties, 0, true);
 $tpl = $modx->getOption('tpl', $scriptProperties, false, true);
 $wrapTpl = $modx->getOption('wrapTpl', $scriptProperties, false, true);
 $showDebug = $modx->getOption('showDebug', $scriptProperties, false, true);
@@ -148,7 +150,30 @@ else {
         }
         
         $debug['result'] = $fieldsTypeData;
-    
+
+        if ($innerLimit || $innerOffset) {
+            switch ($field->get('input')) {
+                case 'repeater':
+                    $keyname = 'rows';
+                    break;
+                default:
+                    $keyname = '';
+            }
+            if (!empty($keyname)) {
+                $debug['innerLimit'] = $innerLimit;
+                $debug['innerOffset'] = $innerOffset;
+
+                foreach ($fieldsTypeData as &$fieldsTypeInner) {
+                    if ($innerOffset) {
+                        $fieldsTypeInner[$keyname] = array_splice($fieldsTypeInner[$keyname], (int)$innerOffset);
+                    }
+                    if ($innerLimit) {
+                        $fieldsTypeInner[$keyname] = array_splice($fieldsTypeInner[$keyname], 0, $innerLimit);
+                    }
+                }
+            }
+        }
+
         if(!$returnAsJSON && count($fieldsTypeData)) {
             $i = 0;
             foreach($fieldsTypeData as $fieldData) {

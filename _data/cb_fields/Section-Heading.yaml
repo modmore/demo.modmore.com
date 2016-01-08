@@ -1,4 +1,5 @@
 id: 9
+parent_properties: null
 name: 'Section Heading'
 description: 'Big, centered heading to denote different sections'
 sortorder: 9

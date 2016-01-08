@@ -1,4 +1,5 @@
 id: 5
+parent_properties: null
 input: chunk
 name: 'Subscription Box'
 description: 'Adds a callout in between sections that lets people sign up for the modmore.com mailing list'
